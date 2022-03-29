@@ -35,7 +35,7 @@ public class Aplicacao {
                         System.out.println("Erro! Insira um número dentro do intervalo mostrado no menu.");
                         input.next();
                     }
-                } while (erro || opcaoMenu < 0 && opcaoMenu > 5);
+                } while (erro);
                 switch (opcaoMenu) {
                     case 0:
                         break;

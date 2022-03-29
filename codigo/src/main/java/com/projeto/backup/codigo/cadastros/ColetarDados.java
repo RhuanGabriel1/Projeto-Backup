@@ -19,7 +19,7 @@ public class ColetarDados {
                 // input.next(); Esta linha está quebrando a aplicação
             } catch (InputMismatchException e) {
                 System.out.println("Erro! Insira um número inteiro dentro do intervalo para prosseguir.");
-                erro = !erro;
+                erro = true;
                 input.next();
             }
         } while (erro || num < limiteMinimo && num > limiteMaximo);
