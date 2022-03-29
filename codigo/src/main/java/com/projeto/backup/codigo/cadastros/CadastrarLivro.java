@@ -18,7 +18,6 @@ public class CadastrarLivro implements Menus.MenuCadastrarLivro, Menus.DigitarDa
                 ColetarDados.coletaInteger("Ano: ", -2000, 2022),
                 ColetarDados.coletaString("Autor: "),
                 ColetarDados.coletaString("Editora: "));
-
     }
 
 }
